@@ -147,3 +147,34 @@ body {
 	padding: 5px 8px;
 
 }
+
+/*MEDIA INQUIRIES*/
+
+@media(max-width:730px) {
+	div.header {
+		width: 90%;
+	}
+}
+
+@media(max-width:595px) {
+	div.footer {
+		padding-left: 10px;
+		width:70%;
+	}
+}
+
+@media(max-width:467px) {
+	.navigation ul {
+		margin: 0 auto;
+		padding-right: 0;
+		width: 80%;
+	}
+
+	.navigation li {
+		margin: 0;
+	}
+
+	div.bottom-site-links ul.right-site-links {
+		padding: 0;
+	}
+}
