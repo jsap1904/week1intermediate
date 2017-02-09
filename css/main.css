@@ -160,21 +160,35 @@ body {
 	div.footer {
 		padding-left: 10px;
 		width:70%;
+		float: right;
+
 	}
 }
 
-@media(max-width:467px) {
+@media(max-width:460px) {
 	.navigation ul {
 		margin: 0 auto;
 		padding-right: 0;
-		width: 80%;
+		width: 70%;
+		float:none;
 	}
 
-	.navigation li {
+	.item, .item p, .item h3 {
 		margin: 0;
+		float: none;
+		font-size: 10px;
 	}
 
-	div.bottom-site-links ul.right-site-links {
-		padding: 0;
+	.item p, .item h3 {
+		font-size: 10px;
+		float: none;
+	}
+}
+@media(max-width:370px) {
+	.navigation ul {
+		font-size: 10px;
+		margin: 0;
+		float:none;
+		width:20%;
 	}
 }
